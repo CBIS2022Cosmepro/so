@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="SfPc%_gJD@!Q8:vzXf2_">list</variable><variable id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</variable></variables><block type="device_forever" id="R{/7;|pckKi=|Y-S#m~`" x="0" y="0"></block><block type="pxt-on-start" id="B4k:`byJ2xrU!K6+!gW#" x="182" y="122"></block><block type="device_build_image" id="L[kbT-k66;0L:S!68)}l" disabled="true" x="372" y="184"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_build_image" id=":o8zQlQdWd,92|wlkFHg" disabled="true" x="-120" y="253"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="variables_set" id="Z+JXRA=[hB391q?{o5~x" disabled="true" x="83" y="323"><field name="VAR" id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</field><value name="VALUE"><block type="device_build_image" id="[FZn}Haiu#{BtRoU$P,4" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value></block></xml>
