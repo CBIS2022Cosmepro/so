@@ -1,19 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="SfPc%_gJD@!Q8:vzXf2_">list</variable><variable id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</variable></variables><block type="device_forever" id="R{/7;|pckKi=|Y-S#m~`" x="0" y="0"></block><block type="pxt-on-start" id="B4k:`byJ2xrU!K6+!gW#" x="182" y="122"></block><block type="device_build_image" id="L[kbT-k66;0L:S!68)}l" disabled="true" x="372" y="184"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="SfPc%_gJD@!Q8:vzXf2_">list</variable><variable id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</variable><variable id="$`l^?|z6V44Q[lnCROBV">myImage</variable><variable id=")Tu5Ah1ia9H0lpm,kRO6">Sad</variable></variables><block type="device_button_event" id="M7-`_]v]IaFq+BEk8sG6" x="-7" y="-234"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_image_offset" id="3!(uUD2CZ.H?|d[hha3@"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="TgT{vO9L1Mjp!wgjCON7"><field name="VAR" id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</field></block></value><value name="offset"><shadow type="math_number" id="H:/~@;O8sk2ychK^:iV9"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="$*!m]DJGeuC/ru]OyNAc"><field name="NUM">400</field></shadow></value></block></statement></block><block type="device_forever" id="haCvx53Cimyaf0rX)$3K" x="348" y="-237"></block><block type="device_button_event" id=")YYt4|nreYqLSzOL0,gO" x="-136" y="-110"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_image_offset" id="H1`{5gVV:,kr{4.+B)oh"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="$]tleqidpIK1arl2MCxD"><field name="VAR" id=")Tu5Ah1ia9H0lpm,kRO6">Sad</field></block></value><value name="offset"><shadow type="math_number" id="0F@vfw82Nc)spMjV6v`E"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="2oS%|s{OZ4f7+#^bo%))"><field name="NUM">400</field></shadow></value></block></statement></block><block type="pxt-on-start" id="RVFy)9@|,tbk*IB(R#N0" x="155" y="-85"><statement name="HANDLER"><block type="variables_set" id="o{U-d5ZM~=Lp56aQf=(x"><field name="VAR" id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</field><value name="VALUE"><block type="device_build_image" id=",drVxJJTKmV+?lYPvW+="><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></value><next><block type="variables_set" id="1L[Y.71v?`J~n;Oe1AP/"><field name="VAR" id=")Tu5Ah1ia9H0lpm,kRO6">Sad</field><value name="VALUE"><shadow type="math_number" id="_59C[rQ`0C_Wbmgv?MLG"><field name="NUM">0</field></shadow><block type="device_build_image" id="S)$ix$gcs)hretu(fuem"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></value></block></next></block></statement></block><block type="device_build_image" id="@_d[q9`ueIzZ*1PmTs9k" disabled="true" x="465" y="136"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block><block type="device_build_image" id=":o8zQlQdWd,92|wlkFHg" disabled="true" x="-120" y="253"><field name="LEDS">`
+        `</field></block><block type="device_build_image" id="yKfIw!MUdeA@^2Ecf{z?" disabled="true" x="-70" y="167"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block><block type="variables_set" id="Z+JXRA=[hB391q?{o5~x" disabled="true" x="83" y="323"><field name="VAR" id="JWNS$U*#;|#[mRB.^Wa%">HAPPY</field><value name="VALUE"><block type="device_build_image" id="[FZn}Haiu#{BtRoU$P,4" disabled="true"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></value></block></xml>
+        `</field></block></xml>
